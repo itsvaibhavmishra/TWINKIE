@@ -2,21 +2,18 @@
 
 """MODULES"""
 
-try:
-    from gtts import gTTS
-    import speech_recognition as sr     # uses pyaudio itself
-    import random
-    import wikipedia
-    import datetime     # For Time
-    import time     # For sleep
-    import os   # For clear or cls Terminal
-    import calendar 
-    import warnings     # For Ignoring Warnings
-    import pygame   # For Playing Audio
-    import requests     # For Url Requests
 
-except ImportError:
-    print("Please check for required module")
+from gtts import gTTS
+import speech_recognition as sr     # uses pyaudio itself
+import random
+import wikipedia
+import datetime     # For Time
+import time     # For sleep
+import os   # For clear or cls Terminal
+import calendar 
+import warnings     # For Ignoring Warnings
+import pygame   # For Playing Audio
+import requests     # For Url Requests
     
 
 # For Clearing Terminal
