@@ -1,19 +1,39 @@
-## T.W.I.N.K.I.E AI Assistance
+## T.W.I.N.K.I.E Virtual Assistance
 
 """MODULES"""
+import subprocess
+import sys
 
+try:
+    from gtts import gTTS
+    import speech_recognition as sr     # uses pyaudio itself
+    import random
+    import wikipedia
+    import datetime     # For Time
+    import time     # For sleep
+    import os   # For clear or cls Terminal
+    import calendar 
+    import warnings     # For Ignoring Warnings
+    import pygame   # For Playing Audio
+    import requests     # For Url Requests
 
-from gtts import gTTS
-import speech_recognition as sr     # uses pyaudio itself
-import random
-import wikipedia
-import datetime     # For Time
-import time     # For sleep
-import os   # For clear or cls Terminal
-import calendar 
-import warnings     # For Ignoring Warnings
-import pygame   # For Playing Audio
-import requests     # For Url Requests
+except ImportError:
+    ModLst = ["gTTS", "SpeechRecognition", "wikipedia", "PyAudio"]
+
+    for item in ModLst:
+        subprocess.check_call([sys.executable, "-m", "pip3", "install", item])
+finally:
+    from gtts import gTTS
+    import speech_recognition as sr     # uses pyaudio itself
+    import random
+    import wikipedia
+    import datetime     # For Time
+    import time     # For sleep
+    import os   # For clear or cls Terminal
+    import calendar 
+    import warnings     # For Ignoring Warnings
+    import pygame   # For Playing Audio
+    import requests     # For Url Requests
     
 
 # For Clearing Terminal
