@@ -18,7 +18,7 @@ try:
     import requests     # For Url Requests
 
 except ImportError:
-    ModLst = ["gTTS", "SpeechRecognition", "wikipedia", "PyAudio"]
+    ModLst = ["gTTS", "SpeechRecognition", "wikipedia", "pygame", "PyAudio"]
 
     for item in ModLst:
         subprocess.check_call([sys.executable, "-m", "pip3", "install", item])
@@ -33,8 +33,7 @@ finally:
     import calendar 
     import warnings     # For Ignoring Warnings
     import pygame   # For Playing Audio
-    import requests     # For Url Requests
-    
+    import requests     # For Url Requests    
     
 # For Clearing Terminal
 clear = lambda: os.system('clear' or 'cls')
