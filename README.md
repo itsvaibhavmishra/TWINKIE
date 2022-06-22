@@ -4,7 +4,7 @@ TWINKIE - A BASIC VIRTUAL ASSISTANT
 The Project will soon be updated and the bugs will be fixed
 
 A fully functional personal assistant for Linux based systems which responds to your speech inputs.
-(Tested/Devloped on: Ubuntu 18.04)
+(Tested/Devleoped on: Ubuntu 18.04)
 
 Version
 --------------
