@@ -30,7 +30,7 @@ Greetings
 Time
 --------------
 
-    ->Just as TWINKIE what is the time now.
+    ->Just ask "TWINKIE what is the time now".
     ->TWINKIE will update you time according to 12hour system.
 
 Search Wiki
@@ -44,7 +44,7 @@ Search weather
 
     ->TWINKIE could even help you with current weather.
     ->Just say - How is the weather today?
-    ->She will ask you for your city name. Ex-> say 'Ranchi'.
+    ->She will ask you for your city name. Ex-> say 'Delhi'.
     ->Remember that while giving city name you must only give A single city name and nothing else.
 
 Why not ask TWINKIE yourself?
